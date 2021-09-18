@@ -28,9 +28,11 @@ module.exports = {
       "unix"
     ],
     "quotes": [
-      "single"
+      "error",
+      "double"
     ],
     "semi": [
+      "error",
       "never"
     ],
     "eqeqeq": "error",

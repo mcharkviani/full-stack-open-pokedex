@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react"
 
 const PokemonAbility = ({ abilityName, state }) => (
   <div className="pokemon-ability">
