@@ -27,11 +27,8 @@ module.exports = {
       "error",
       "unix"
     ],
-    "quotes": [2, "single"],
-    "semi": [
-      "error",
-      "never"
-    ],
+    "quotes": "off",
+    "semi": "off",
     "eqeqeq": "error",
     "no-trailing-spaces": "error",
     "object-curly-spacing": [
