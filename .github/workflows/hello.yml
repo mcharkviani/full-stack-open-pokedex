@@ -12,37 +12,14 @@ jobs:
       - name: Say hello
         run: |
           echo "Hello World!"
-
-          
-name: date
-
-on:
-  push:
-    branches:
-      - master
-
-jobs:
-  hello_world_job:
-    runs-on: ubuntu-18.04          
-    steps:
       - name: Now it is
-        run: |
+        run: |  
           echo $(date)
-
-
-name: ls -l
-
-on:
-  push:
-    branches:
-      - master
-
-jobs:
-  hello_world_job:
-    runs-on: ubuntu-18.04          
-    steps:
       - name: Directory content
         run: |
           echo "total 0"
+
+
+      
 
 
